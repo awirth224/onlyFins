@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import './App.css';
 import apiCall from '../apiCall';
+import Parent from '../ParentCard/Parent';
 
 class App extends Component {
   constructor() {
@@ -21,6 +22,7 @@ componentDidMount() {
       <div className="App">
         <header className="App-header">
         </header>
+        <Parent fishies={this.state.fishies}/>
       </div>
     )
   }
