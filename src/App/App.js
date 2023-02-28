@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import './App.css';
+import apiCall from '../apiCall';
 
 class App extends Component {
   constructor() {
@@ -9,6 +10,11 @@ class App extends Component {
     }
   }
 
+componentDidMount() {
+  apiCall().then(data => {
+    this.setState({fishies: data})
+  })
+}
 
   render() {
     return (
