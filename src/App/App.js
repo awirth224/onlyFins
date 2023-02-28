@@ -20,8 +20,7 @@ componentDidMount() {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-        </header>
+        <header className="App-header">Only Fish</header>
         <Parent fishies={this.state.fishies}/>
       </div>
     )
