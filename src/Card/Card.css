@@ -1,7 +1,15 @@
+/*
+Colors
+Home #036A8F
+Bio #008CAD
+Fish #2EA0B9
+What #64B8CB
+ */
+
 .card {
   align-items: center;
-  border: 3px solid #2EA0B9;
-  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, .2);
+  border: 3px solid rgba(0, 105, 166, 0.5);
+  box-shadow: 1px 1px 4px 0 rgba(0, 158, 250, 0.5);
   display: flex;
   flex-direction: column;
   height: 25vh;
