@@ -4,7 +4,7 @@ import './Parent.css'
 
 const Parent = ({fishies}) => {
   const selectFish = fishies.slice(0,9)
-  const fish = selectFish.map((fish, index) => {
+  const fish = selectFish.map((fish) => {
     return (
       <Card
       src={fish.illustration.src}
@@ -12,7 +12,7 @@ const Parent = ({fishies}) => {
       species={fish.name}
       cal={fish.calories}
       protein={fish.protein}
-      key={index}
+      key={fish.id}
     />
     )
   })
