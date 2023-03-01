@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import './App.css';
-import getFish from '../apiCall';
+import {getAllFish,
+  getSingleFish } from '../apiCall';
 import Parent from '../ParentCard/Parent';
 import cleanData from '../Util';
 
@@ -14,7 +15,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    getFish().then(data => {
+    getAllFish().then(data => {
       const cleanFish = cleanData(data).map((fish, index) => (
         {
         ...fish,
@@ -31,7 +32,6 @@ class App extends Component {
       <div className="App">
         <header className="App-header">OnlyFins</header>
         <Parent fishies={this.state.fishies}/>
-        <Fish fishies={this.state.fishies}/>
       </div>
     )
   }
