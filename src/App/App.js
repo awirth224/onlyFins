@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './App.css';
-import apiCall from '../apiCall';
+import getFish from '../apiCall';
 import Parent from '../ParentCard/Parent';
 import cleanData from '../Util';
 
@@ -14,7 +14,7 @@ class App extends Component {
   }
 
 componentDidMount() {
-  apiCall().then(data => {
+  getFish().then(data => {
     this.setState({fishies: cleanData(data)})
   })
 }
