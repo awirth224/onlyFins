@@ -5,7 +5,6 @@ const cleanData = (data => {
     benefits: fish["Health Benefits"],
     color: fish["Color"],
     gallery: fish["Image Gallery"],
-    id: (id || 0) + 1,
     illustration: fish["Species Illustration Photo"],
     location: fish["Location"],
     path: fish["Path"],

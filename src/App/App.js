@@ -1,19 +1,21 @@
 import React, {Component} from 'react'
 import './App.css';
-import apiCall from '../apiCall';
+import getFish from '../apiCall';
 import Parent from '../ParentCard/Parent';
+import cleanData from '../Util';
 
 class App extends Component {
   constructor() {
     super()
     this.state = {
-      fishies: []
+      fishies: [],
+      selectedFish: {}
     }
   }
 
 componentDidMount() {
-  apiCall().then(data => {
-    this.setState({fishies: data})
+  getFish().then(data => {
+    this.setState({fishies: cleanData(data)})
   })
 }
 
