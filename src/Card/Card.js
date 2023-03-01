@@ -1,27 +1,12 @@
-import React, {Component} from "react";
+import React from "react";
 import './Card.css'
 
-class Card extends Component {
-  constructor() {
-    super()
-    this.state = {
-      img: '',
-      species: '',
-      protein: '',
-      sodium: ''
-    }
-  }
-
-  render() {
-    return(
-      <div>
-        <h2></h2>
-        <img></img>
-      </div>
-    )
-  }
+const Card = ({image, species, protein, sodium}) => {
+  return (
+    <div className='card'>
+      <h2>{species}</h2>
+    </div>
+  )
 }
-
-
 
 export default Card
