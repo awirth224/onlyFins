@@ -3,18 +3,20 @@ import Card from "../Card/Card";
 import './Parent.css'
 
 const Parent = ({fishies}) => {
-  const selectFish = fishies.slice(0,9)
-  const fish = selectFish.map((fish, index) => {
+  const selectFish = fishies.splice(9,30)
+  const fish = selectFish.map((fish) => {
     return (
-    <Card
+      <Card
       src={fish.illustration.src}
       alt={fish.illustration.alt}
       species={fish.name}
-      taste={fish.taste}
-      key={index}
+      cal={fish.calories}
+      protein={fish.protein}
+      key={fish.id}
     />
     )
   })
+ 
 
   return (
     <div className='card-container'>

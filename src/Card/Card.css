@@ -1,13 +1,22 @@
+/*
+Colors
+Home #036A8F
+Bio #008CAD
+Fish #2EA0B9
+What #64B8CB
+ */
+
 .card {
   align-items: center;
-  border: 3px solid #2EA0B9;
-  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, .2);
+  border: 3px solid rgba(0, 105, 166, 0.5);
+  box-shadow: 1px 1px 4px 0 rgba(0, 158, 250, 0.5);
   display: flex;
   flex-direction: column;
-  height: 25vh;
+  flex-wrap: wrap;
+  height: 45vh;
   justify-content: center;
   margin: 3% 3%;
-  width: 36vw;
+  width: 22vw;
 }
 
 .card:hover {
@@ -16,12 +25,31 @@
 }
 
 img {
-  height: 100px;
+  height: auto;
+  max-height: 50%;
+  max-width: 50%;
   object-fit: contain;
   object-position: center;
-  width: 300px;
 }
 
 img:hover {
   transform: scale(1.06);
 }
+
+.info-container {
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+}
+
+h2 {
+  font-size: large;
+  margin: none;
+ }
+ 
+ 
+ h3 {
+  font-size: small;
+  margin: none;
+ }
+ 
