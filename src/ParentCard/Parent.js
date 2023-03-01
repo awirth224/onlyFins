@@ -6,15 +6,17 @@ const Parent = ({fishies}) => {
   const selectFish = fishies.slice(0,9)
   const fish = selectFish.map((fish, index) => {
     return (
-    <Card
+      <Card
       src={fish.illustration.src}
       alt={fish.illustration.alt}
       species={fish.name}
-      taste={fish.taste}
+      cal={fish.calories}
+      protein={fish.protein}
       key={index}
     />
     )
   })
+ 
 
   return (
     <div className='card-container'>
