@@ -1,18 +1,20 @@
 import React, {Component} from 'react'
 import './App.css';
-import apiCall from '../apiCall';
+import getFish from '../apiCall';
 import Parent from '../ParentCard/Parent';
+import Fish from '../SingleFish/Fish';
 
 class App extends Component {
   constructor() {
     super()
     this.state = {
-      fishies: []
+      fishies: [],
+      selectedFish: {}
     }
   }
 
 componentDidMount() {
-  apiCall().then(data => {
+  getFish().then(data => {
     this.setState({fishies: data})
   })
 }
@@ -22,6 +24,7 @@ componentDidMount() {
       <div className="App">
         <header className="App-header">Only Fish</header>
         <Parent fishies={this.state.fishies}/>
+        <Fish fishies={this.state.fishies}/>
       </div>
     )
   }
