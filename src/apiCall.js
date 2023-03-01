@@ -3,8 +3,4 @@ const apiCall = () => {
     .then(response => response.json())
 }
 
-
-
-
-
 export default apiCall
