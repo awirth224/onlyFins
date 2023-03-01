@@ -2,22 +2,21 @@ import React from "react";
 import Card from "../Card/Card";
 import './Parent.css'
 
-
-
 const Parent = ({fishies}) => {
-  const selectFish = fishies.slice(0,9)
-  const id = [Math.floor(Math.random() * fishies.length)]
-  const fish = selectFish.map(fish => {
+  const selectFish = fishies.splice(9,30)
+  const fish = selectFish.map((fish) => {
     return (
-    <Card
-      // image={fishies["Image Gallery"]}
-      species={fish["Species Name"]}
+      <Card
+      src={fish.illustration.src}
+      alt={fish.illustration.alt}
+      species={fish.name}
+      cal={fish.calories}
       protein={fish.protein}
-      sodium={fish.sodium}
-      key={id}
+      key={fish.id}
     />
     )
   })
+ 
 
   return (
     <div className='card-container'>

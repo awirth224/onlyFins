@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import './App.css';
 import getFish from '../apiCall';
 import Parent from '../ParentCard/Parent';
-import Fish from '../SingleFish/Fish';
+import cleanData from '../Util';
 
 class App extends Component {
   constructor() {
@@ -13,16 +13,23 @@ class App extends Component {
     }
   }
 
-componentDidMount() {
-  getFish().then(data => {
-    this.setState({fishies: data})
-  })
-}
+  componentDidMount() {
+    getFish().then(data => {
+      const cleanFish = cleanData(data).map((fish, index) => (
+        {
+        ...fish,
+        id: index     
+      }
+      ))
+      this.setState({fishies: cleanFish})
+    })
+   }
+   
 
   render() {
     return (
       <div className="App">
-        <header className="App-header">Only Fish</header>
+        <header className="App-header">OnlyFins</header>
         <Parent fishies={this.state.fishies}/>
         <Fish fishies={this.state.fishies}/>
       </div>
