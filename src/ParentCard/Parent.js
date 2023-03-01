@@ -2,8 +2,11 @@ import React from "react";
 import Card from "../Card/Card";
 import './Parent.css'
 
+
+
 const Parent = ({fishies}) => {
   const selectFish = fishies.slice(0,9)
+  const id = [Math.floor(Math.random() * fishies.length)]
   const fish = selectFish.map(fish => {
     return (
     <Card
@@ -11,7 +14,7 @@ const Parent = ({fishies}) => {
       species={fish["Species Name"]}
       protein={fish.protein}
       sodium={fish.sodium}
-      key={fish.index}
+      key={id}
     />
     )
   })
