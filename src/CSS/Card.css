@@ -8,8 +8,8 @@ What #64B8CB
 
 .card {
   align-items: center;
-  border: 3px solid rgba(0, 105, 166, 0.5);
-  box-shadow: 1px 1px 4px 0 rgba(0, 158, 250, 0.5);
+  border: 2px solid #2EA0B9;
+  box-shadow: 1px 1px 3px 0 #2EA0B9;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
