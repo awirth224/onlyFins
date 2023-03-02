@@ -24,9 +24,6 @@ class App extends Component {
         }
       ))
       this.setState({fishies: cleanFish})
-      const images = this.state.fishies.filter(fish => !fish.gallery)
-      const fishImages = cleanFish.splice(images)
-      this.setState({fishies: fishImages})
     })
   }
   
@@ -35,6 +32,17 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">OnlyFins</header>
+        <div className='sort-container'>
+          <div className='dropdown'>
+            <label for="sort" className='label'></label>
+            <select id="sort" name="sort" className='select'>
+              <option value="C-HL">Calories: High to Low</option>
+              <option value="C-LH">Calories: Low to High</option>
+              <option value="P-HL">Protein: High to Low</option>
+              <option value="P-LH">Protein: Low to High</option>
+            </select>
+          </div>
+        </div>
         <Switch>
           <Route exact path='/'><Parent fishies={this.state.fishies}/></Route>
           <Route path='/:species' render={({ match }) => {
