@@ -16,12 +16,16 @@ What #64B8CB
   height: 45vh;
   justify-content: space-evenly;
   margin: 2% 3%;
-  width: 26vw;
+  width: 28vw;
 }
 
 .card:hover {
   cursor: pointer;
   transform: scale(1.02);
+}
+
+.link {
+  text-decoration: none;
 }
 
 img {
@@ -43,14 +47,14 @@ img:hover {
 }
 
 h2 {
-  font-size: large;
-  margin: 1% 1%;
+  font-size: x-large;
+  margin-bottom: 10%;
   width: 110%;
  }
  
  
- h3 {
+ .info {
   font-size: small;
-  margin: none;
+  margin: 0%;
  }
  
