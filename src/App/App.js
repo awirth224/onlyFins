@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import './App.css';
-import {getAllFish,
-  getSingleFish } from '../apiCall';
+import getAllFish from '../apiCall';
 import Parent from '../ParentCard/Parent';
 import cleanData from '../Util';
 
