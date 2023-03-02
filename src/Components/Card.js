@@ -6,7 +6,7 @@ const Card = ({src, alt, species, cal, protein}) => {
   return (
     <NavLink to={`/${species}`} className='link'>
       <div className='card'>
-        <img src={src} alt={alt}/>
+        <img src={src} alt={alt} className="dashboard-img"/>
         <div className="info-container">
           <h2>{species}</h2>
           <h3 className="info">Calories: {cal}</h3>
