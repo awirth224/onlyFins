@@ -26,6 +26,10 @@ class App extends Component {
       this.setState({fishies: cleanFish})
     })
   }
+
+  componentDidUpdate() {
+    
+  }
   
 
   render() {
