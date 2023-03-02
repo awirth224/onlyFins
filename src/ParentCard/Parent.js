@@ -3,7 +3,7 @@ import Card from "../Card/Card";
 import './Parent.css'
 
 const Parent = ({fishies}) => {
-  const selectFish = fishies.splice(9,30)
+  const selectFish = fishies
   const fish = selectFish.map((fish) => {
     return (
       <Card
