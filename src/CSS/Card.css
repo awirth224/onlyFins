@@ -28,7 +28,7 @@ What #64B8CB
   text-decoration: none;
 }
 
-img {
+.dashboard-img {
   height: auto;
   max-height: 50%;
   max-width: 50%;
@@ -36,7 +36,7 @@ img {
   object-position: center;
 }
 
-img:hover {
+.dashboard-img:hover {
   transform: scale(1.06);
 }
 
