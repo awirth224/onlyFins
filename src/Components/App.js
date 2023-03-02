@@ -21,9 +21,12 @@ class App extends Component {
         {
         ...fish,
         id: index     
-      }
+        }
       ))
       this.setState({fishies: cleanFish})
+      const images = this.state.fishies.filter(fish => !fish.gallery)
+      const fishImages = cleanFish.splice(images)
+      this.setState({fishies: fishImages})
     })
   }
   
