@@ -1,5 +1,4 @@
 import React from "react";
-import MiscInfo from "./MiscInfo";
 import Nutrition from "./Nutrition";
 
 const Fish = (props) => {

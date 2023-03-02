@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
-import './App.css';
+import '../CSS/App.css';
 import getAllFish from '../apiCall';
-import Parent from '../ParentCard/Parent';
+import Parent from './Parent';
 import cleanData from '../Util';
 import { Route, Switch } from 'react-router-dom';
-import Fish from '../SingleFish/Fish';
+import Fish from './Fish';
 
 class App extends Component {
   constructor() {

@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "../Card/Card";
-import './Parent.css'
+import Card from "./Card";
+import '../CSS/Parent.css'
 
 const Parent = ({fishies}) => {
   const selectFish = fishies

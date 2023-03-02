@@ -1,9 +1,10 @@
 import React from "react";
+import '../CSS/Nutrition.css';
 
 
 const Nutrition = ({serving, calories, carbohydrate, cholesterol, fat, fiber, sodium, sugar}) => {
   return(
-    <div>
+    <div className="nutrition-container">
       <h3>Serving: {serving}</h3>
       <h3>Calories: {calories}</h3>
       <h3>Carbohydrates: {carbohydrate}</h3>

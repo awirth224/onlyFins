@@ -1,5 +1,5 @@
 import React from "react";
-import './Card.css'
+import '../CSS/Card.css'
 import { NavLink } from 'react-router-dom'
 
 const Card = ({src, alt, species, cal, protein}) => {
