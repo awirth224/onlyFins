@@ -5,13 +5,15 @@ import Parent from './Parent';
 import cleanData from '../Util';
 import { Route, Switch } from 'react-router-dom';
 import SingleFish from '../Components/SingleFish';
+import DropDown from './Dropdown';
 
 class App extends Component {
   constructor() {
     super()
     this.state = {
       fishies: [],
-      selectedFish: {}
+      selectedFish: {},
+      sort: ''
     }
   }
 
@@ -27,8 +29,8 @@ class App extends Component {
     })
   }
 
-  componentDidUpdate() {
-    
+  onChange = (option) => {
+    this.setState({sort: option.value})
   }
   
 
@@ -36,17 +38,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">OnlyFins</header>
-        <div className='sort-container'>
-          <div className='dropdown'>
-            <label for="sort" className='label'></label>
-            <select id="sort" name="sort" className='select'>
-              <option value="C-HL">Calories: High to Low</option>
-              <option value="C-LH">Calories: Low to High</option>
-              <option value="P-HL">Protein: High to Low</option>
-              <option value="P-LH">Protein: Low to High</option>
-            </select>
-          </div>
-        </div>
+        <DropDown props={this.onChange}/>
         <Switch>
           <Route exact path='/'><Parent fishies={this.state.fishies}/></Route>
           <Route path='/:species' render={({ match }) => {
