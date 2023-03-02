@@ -1,6 +1,7 @@
 import React from "react";
 import Nutrition from "./Nutrition";
 import '../CSS/SingleFish.css'
+import { NavLink } from 'react-router-dom'
 
 const Fish = (props) => {
   const findFish = (fishName) => {
@@ -8,13 +9,15 @@ const Fish = (props) => {
       return (
         <div className="single-fish-container">
           <div className="img-info-container">
-            <img src={found.gallery[0].src || found.illustration.src} alt={found.gallery[0].alt || found.illustration.alt}/>
+            <img src={found.gallery[0].src} alt={found.gallery[0].alt}/>
             <Nutrition
             props={found}
             />
           </div>
           <div className="btn-container">
-            <button className="home-btn">Home</button>
+            <NavLink to={`/`} className='link'>
+              <button className="home-btn">Home</button>
+            </NavLink>
           </div>
         </div>
       )
