@@ -4,7 +4,7 @@ import getAllFish from '../apiCall';
 import Parent from './Parent';
 import cleanData from '../Util';
 import { Route, Switch } from 'react-router-dom';
-import Fish from './Fish';
+import SingleFish from '../Components/SingleFish';
 
 class App extends Component {
   constructor() {
@@ -36,7 +36,7 @@ class App extends Component {
           <Route exact path='/'><Parent fishies={this.state.fishies}/></Route>
           <Route path='/:species' render={({ match }) => {
             return (
-              <Fish fish={match.params.species} fishies={this.state.fishies} />
+              <SingleFish fish={match.params.species} fishies={this.state.fishies} />
             )
           }}/>
         </Switch>
