@@ -38,3 +38,9 @@ LIGHTEST: #64B8CB
     width:25vw;
   }
 }
+
+@media (max-width: 868px) {
+  .sort-btn {
+    width: 20vw;
+  }
+}
