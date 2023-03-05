@@ -127,7 +127,7 @@ h2 {
    }
  }
 
-@media(max-width 468px) {
+@media(max-width: 468px) {
   .card {
     border: 2px solid #2EA0B9;
     box-shadow: 1px 1px 3px 0 #2EA0B9;
@@ -135,8 +135,8 @@ h2 {
     flex-direction: column;
     flex-wrap: wrap;
     margin: 2% 0%;
-    height: 25vh;
-    width: 60vw;
+    height: 45vh;
+    width: 80vw;
   }
 
   .card:hover {
