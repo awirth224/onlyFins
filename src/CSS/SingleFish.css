@@ -24,6 +24,9 @@ img {
 }
 
 .home-btn {
+  background-color: #2EA0B9;
+  border: none;
+  color: white;
   height: 7vh;
   margin-top: 1%;
   width: 12vw;
