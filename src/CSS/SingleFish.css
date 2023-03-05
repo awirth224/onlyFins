@@ -28,3 +28,9 @@ img {
   margin-top: 1%;
   width: 12vw;
 }
+
+.error-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
