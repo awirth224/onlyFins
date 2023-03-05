@@ -5,7 +5,6 @@ import Parent from './Parent';
 import cleanData from '../Util';
 import { Route, Switch } from 'react-router-dom';
 import SingleFish from '../Components/SingleFish';
-import DropDown from './Dropdown';
 
 class App extends Component {
   constructor() {
@@ -31,12 +30,6 @@ class App extends Component {
   sortCalories = () => {
     const cal = this.state.fishies.sort((a,b) => Number(a.calories) - Number(b.calories))
     this.setState({fishies: cal})
-  }
-
-  sortProtein = () => {
-    const protein = this.state.fishies.sort((a,b) => {
-      console.log('A', a.protein)
-    })
   }
 
   render() {
