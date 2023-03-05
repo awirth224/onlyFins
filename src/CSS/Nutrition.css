@@ -1,8 +1,25 @@
 .nutrition-container {
   display: flex;
   flex-direction: column;
+  width: 40%;
 }
 
 h3 {
-  font-size: large;
+  margin-top: 5%;
+}
+
+@media (max-width: 868px) {
+  .nutrition-container {
+    width: 90%;
+  }
+
+  h3 {
+    margin: 1% 3%;
+  }
+}
+
+@media (max-width: 468px) {
+  h3 {
+    margin: 1% 3%;
+  }
 }
