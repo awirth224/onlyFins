@@ -40,7 +40,7 @@ class App extends Component {
         <header className="App-header">OnlyFins</header>
         <Switch>
           <Route exact path='/'>
-            <DropDown props={this.onChange}/>
+            <DropDown onChange={this.onChange}/>
             <Parent fishies={this.state.fishies}/></Route>
           <Route path='/:species' render={({ match }) => {
             return (
