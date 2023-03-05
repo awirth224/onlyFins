@@ -26,6 +26,10 @@ LIGHTEST: #64B8CB
   width: 10vw;
 }
 
+.link {
+  text-decoration: none;
+}
+
 /* Breakpoints */
 
 @media (max-width: 468px) {
