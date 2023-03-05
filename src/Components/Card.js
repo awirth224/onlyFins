@@ -9,8 +9,8 @@ const Card = ({src, alt, species, cal, protein}) => {
         <img src={src} alt={alt} className="dashboard-img"/>
         <div className="info-container">
           <h2>{species}</h2>
-          <h3 className="info">Calories: {cal}</h3>
-          <h3 className="info">Protein: {protein}</h3>
+          <h3 className="info">Calories: {cal || 'N/A'}</h3>
+          <h3 className="info">Protein: {protein || 'N/A'}</h3>
         </div>
       </div>
     </NavLink>
