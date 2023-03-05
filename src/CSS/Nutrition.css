@@ -5,4 +5,12 @@
 
 h3 {
   font-size: large;
+  margin: 1%;
+}
+
+@media (max-width: 468px) {
+  h3 {
+    font-size: medium;
+    margin: 1%;
+  }
 }

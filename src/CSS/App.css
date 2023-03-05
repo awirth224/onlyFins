@@ -22,6 +22,19 @@ LIGHTEST: #64B8CB
   border: none;
   color: white;
   height: 6vh;
-  margin: 2% 0%;
+  margin: 2% 2%;
   width: 10vw;
+}
+
+/* Breakpoints */
+
+@media (max-width: 468px) {
+  .App-header {
+    height: 8vh;
+  }
+
+  .sort-btn {
+    height: 5vh;
+    width:25vw;
+  }
 }
