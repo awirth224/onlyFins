@@ -12,8 +12,7 @@ class App extends Component {
     super()
     this.state = {
       fishies: [],
-      selectedFish: {},
-      sort: []
+      selectedFish: {}
     }
   }
 
@@ -27,10 +26,6 @@ class App extends Component {
       ))
       this.setState({fishies: cleanFish})
     })
-  }
-
-  onChange = (option) => {
-    this.setState({sort: option.value})
   }
   
   sortCalories = () => {
@@ -50,7 +45,7 @@ class App extends Component {
         <header className="App-header">OnlyFins</header>
         <Switch>
           <Route exact path='/'>
-            <button onClick={this.sortCalories}>Sort By Calories</button>
+              <button onClick={this.sortCalories} className='sort-btn'>Sort By Calories</button>
             {/* <DropDown onChange={this.onChange}/> */}
             <Parent fishies={this.state.fishies}/></Route>
           <Route path='/:species' render={({ match }) => {
