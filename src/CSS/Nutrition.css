@@ -1,0 +1,8 @@
+.nutrition-container {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: large;
+}
