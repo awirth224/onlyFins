@@ -8,14 +8,12 @@
    "gallery": [
     {
       "alt": "White hake in sampling basket aboard research vessel",
-      "src": "https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/white%20hake_Calvin%20Alexander_1.jpeg",
       "title": "White hake in sampling basket. Photo credit: Calvin Alexander"
     }
    ],
    "id": 1,
    "illustration": {
     "alt": "Illustration of white hake. Credit: Jack Hornady.",
-    "src": "https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Hake_White_NB_W_0.png",
     "title": "White hake"
    },
    "name": "White Hake",
@@ -36,14 +34,12 @@
     "gallery": [
      {
        "alt": "American Lobster",
-       "src": "https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1.JPG",
        "title": "American Lobster"
      }
     ],
     "id": 4,
     "illustration": {
      "alt": "American Lobster",
-     "src": "https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Lobster_American_NB_Web.png",
      "title": "American Lobster"
     },
     "name": "American Lobster",
@@ -65,7 +61,6 @@
      {
        "alt": 
        "Captain Henri Franco with a large monkfish during a cooperative monkfish survey aboard the F/V Mary K",
-       "src": "https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/monkfish_1.jpg",
        "title": 
        "Captain Henri Franco with a large monkfish during a cooperative monkfish survey aboard the F/V Mary K"
      }
@@ -73,7 +68,6 @@
     "id": 112,
     "illustration": {
      "alt": "",
-     "src": "https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/monkfish.png",
      "title": ""
     },
     "name": "Monkfish",
