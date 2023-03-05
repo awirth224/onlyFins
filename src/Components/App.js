@@ -3,7 +3,7 @@ import '../CSS/App.css';
 import getAllFish from '../apiCall';
 import Parent from './Parent';
 import cleanData from '../Util';
-import { Route, Switch } from 'react-router-dom';
+import { NavLink, Route, Switch } from 'react-router-dom';
 import SingleFish from '../Components/SingleFish';
 
 class App extends Component {
@@ -35,7 +35,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">OnlyFins</header>
+        <NavLink to='/' className="link"><header className="App-header">OnlyFins</header></NavLink>
         <Switch>
           <Route exact path='/'>
               <button onClick={this.sortCalories} className='sort-btn'>Sort By Calories</button>

@@ -21,10 +21,30 @@ const Fish = (props) => {
         </div>
       )
     } else {
+      console.log('fish', found.illustration)
+      const noImg = () => {
+         if(found.gallery === null) {
+          return found.illustration.src
+        } else if(found.gallery.length > 0) {
+          return found.gallery[0].src
+        } else {
+          return found.gallery.src
+        }
+      }
+      const noAlt = () => {
+        if(!found.gallery) {
+         return found.illustration.alt
+       } else if(found.gallery.length > 0) {
+         return found.gallery[0].alt
+       } else {
+         return found.gallery.alt
+       }
+     }
+
       return (
         <div className="single-fish-container">
           <div className="img-info-container">
-            <img src={found.gallery.src || found.gallery[0].src} alt={found.gallery.alt || found.gallery[0].alt}/>
+            <img src={noImg()} alt={noAlt()}/>
             <Nutrition
             props={found}
             />
