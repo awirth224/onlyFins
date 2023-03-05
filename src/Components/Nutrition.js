@@ -14,8 +14,6 @@ const Nutrition = ({props}) => {
       <h3>Sodium: {props.sodium || "N/A"}</h3>
       <h3>Sugar: {props.sugar || "N/A"}</h3>
     </div>
-
-
   )
 }
 
