@@ -38,9 +38,10 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">OnlyFins</header>
-        <DropDown props={this.onChange}/>
         <Switch>
-          <Route exact path='/'><Parent fishies={this.state.fishies}/></Route>
+          <Route exact path='/'>
+            <DropDown props={this.onChange}/>
+            <Parent fishies={this.state.fishies}/></Route>
           <Route path='/:species' render={({ match }) => {
             return (
               <SingleFish fish={match.params.species} fishies={this.state.fishies} />

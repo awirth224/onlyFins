@@ -24,16 +24,7 @@ img {
 }
 
 .home-btn {
-  background-color: #64B8CB;
-  border: none;
-  box-shadow: 1px 1px 4px 0 rgba(54, 54, 54, 0.5);
-  color: #ffffff;
   height: 7vh;
   margin-top: 1%;
   width: 12vw;
-}
-
-.home-btn:hover {
-  cursor: pointer;
-  transform: scale(1.05);
 }
