@@ -4,8 +4,14 @@
   width: 40%;
 }
 
+.name {
+  color: #036A8F;
+  font-size: x-large;
+}
+
 h3 {
-  margin-top: 5%;
+  font-size: large;
+  margin-top: 3%;
 }
 
 @media (max-width: 868px) {
