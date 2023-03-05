@@ -29,7 +29,9 @@ The purpose of this application is to enable users to see a list of fish with th
    ```sh
    Example: http://localhost:3000/
    ```
-   
+## Deployment
+[OnlyFins](https://only-fins-three.vercel.app/)
+
 ## GIF
 ![OnlyFins](https://media.giphy.com/media/3nMXnQu1FvNq7rd4el/giphy.gif)
 
