@@ -7,7 +7,7 @@ const DropDown = ({props}) => {
   return (
     <div className='sort-container'>
       <div className='dropdown'>
-        <label for="sort" className='label'></label>
+        <label htmlFor="sort" className='label'></label>
         <select id="sort" name="sort" className='select'>
           <option value="C-HL">Calories: High to Low</option>
           <option value="C-LH">Calories: Low to High</option>
