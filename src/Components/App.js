@@ -13,7 +13,7 @@ class App extends Component {
     this.state = {
       fishies: [],
       selectedFish: {},
-      sort: ''
+      sort: []
     }
   }
 
@@ -33,6 +33,16 @@ class App extends Component {
     this.setState({sort: option.value})
   }
   
+  sortCalories = () => {
+    const cal = this.state.fishies.sort((a,b) => Number(a.calories) - Number(b.calories))
+    this.setState({fishies: cal})
+  }
+
+  sortProtein = () => {
+    const protein = this.state.fishies.sort((a,b) => {
+      console.log('A', a.protein)
+    })
+  }
 
   render() {
     return (
@@ -40,7 +50,8 @@ class App extends Component {
         <header className="App-header">OnlyFins</header>
         <Switch>
           <Route exact path='/'>
-            <DropDown onChange={this.onChange}/>
+            <button onClick={this.sortCalories}>Sort By Calories</button>
+            {/* <DropDown onChange={this.onChange}/> */}
             <Parent fishies={this.state.fishies}/></Route>
           <Route path='/:species' render={({ match }) => {
             return (
