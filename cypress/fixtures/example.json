@@ -1,82 +1,134 @@
 [
-  {
-   "calories": "90",
-   "carbohydrates": "0",
-   "cholesterol": "67 mg",
-   "fat": "1.31g",
-   "fiber": "0 g",
-   "gallery": [
-    {
-      "alt": "White hake in sampling basket aboard research vessel",
-      "title": "White hake in sampling basket. Photo credit: Calvin Alexander"
-    }
-   ],
-   "id": 1,
-   "illustration": {
-    "alt": "Illustration of white hake. Credit: Jack Hornady.",
-    "title": "White hake"
-   },
-   "name": "White Hake",
-   "path": "/profiles/white-hake",
-   "protein": "18.31 g",
-   "serving": "100 g (raw)",
-   "sodium": "72 mg",
-   "sugar": "0 g",
-   "taste": "<p>White hake has a mild, almost sweet&nbsp;taste.</p>\n",
-   "texture": "<p>White hake has a soft, delicate texture that does not stand up well to freezing.</p>\n"
-  },
-  {
-    "calories": "90",
-    "carbohydrates": "undefined",
-    "cholesterol": "95 mg",
-    "fat": "0.9g",
-    "fiber": "0 g",
-    "gallery": [
-     {
-       "alt": "American Lobster",
-       "title": "American Lobster"
-     }
+ {
+    "Fishery Management": "",
+    "Habitat": null,
+    "Habitat Impacts": "",
+    "Image Gallery": [
+      {
+        "src": "https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/4_9.jpg",
+        "alt": "Crimson jobfish on measuring board.  Photo credit: Pacific Islands Fisheries Group",
+        "title": "Crimson jobfish on measuring board.  Photo credit: Pacific Islands Fisheries Group"
+      }
     ],
-    "id": 4,
-    "illustration": {
-     "alt": "American Lobster",
-     "title": "American Lobster"
+    "Location": "",
+    "Management": null,
+    "NOAA Fisheries Region": "Pacific Islands",
+    "Population": "The population level is unknown",
+    "Population Status": "",
+    "Scientific Name": "Pristipomoides filamentosus",
+    "Species Aliases": "",
+    "Species Illustration Photo": {
+      "src": "https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Pink_snapper_NB_W_0.png",
+      "alt": "Pink snapper",
+      "title": "Pink snapper"
     },
-    "name": "American Lobster",
-    "path": "/profiles/american-lobster",
-    "protein": "18.80 g",
-    "serving": "100 g (raw)",
-    "sodium": "296 mg",
-    "sugar": "0 g",
-    "taste": "<p>Mild and sweet.</p>\n",
-    "texture": "<p>The meat is firm and somewhat fibrous. The tail meat is firmer than the meat from the claws.</p>\n"
+    "Species Name": "Crimson Jobfish",
+    "Animal Health": null,
+    "Availability": "Year-round",
+    "Biology": "",
+    "Bycatch": "Regulations are in place to minimize bycatch.",
+    "Calories": "100",
+    "Carbohydrates": "0 g",
+    "Cholesterol": "37 mg",
+    "Color": "",
+    "Disease Treatment and Prevention": null,
+    "Displayed Seafood Profile Illustration": null,
+    "Ecosystem Services": null,
+    "Environmental Considerations": null,
+    "Environmental Effects": null,
+    "Farming Methods": null,
+    "Farming Methods_": null,
+    "Fat, Total": "1.34 g",
+    "Feeds_": null,
+    "Feeds": null,
+    "Fiber, Total Dietary": "0 g",
+    "Fishing Rate": "Reduced to end overfishing of the bottomfish complex in American Samoa. At recommended levels for other 4 bottomfish complexes.",
+    "Harvest": "",
+    "Harvest Type": "Wild",
+    "Health Benefits": "Crimson jobfish is a great source of lean, healthy protein and rich in vitamins.",
+    "Human_Health_": null,
+    "Human Heath": null,
+    "Physical Description": "",
+    "Production": null,
+    "Protein": "20.5",
+    "Quote": "",
+    "Quote Background Color": "",
+    "Research": null,
+    "Saturated Fatty Acids, Total": "0.285 g",
+    "Selenium": "38.2 mcg",
+    "Serving Weight": "100 g (raw)",
+    "Servings": "1",
+    "Sodium": "64 mg",
+    "Source": "U.S -wild caught around Hawaii and Pacific Islands Region territories.",
+    "Sugars, Total": "0 g",
+    "Taste": "",
+    "Texture": "",
+    "Path": "",
+    "last_update":"06/21/2022 - 12:00"  
    },
    {
-    "calories": "76",
-    "carbohydrates": "undefined",
-    "cholesterol": "25 mg",
-    "fat": "1.52g",
-    "fiber": "0 g",
-    "gallery": [
-     {
-       "alt": 
-       "Captain Henri Franco with a large monkfish during a cooperative monkfish survey aboard the F/V Mary K",
-       "title": 
-       "Captain Henri Franco with a large monkfish during a cooperative monkfish survey aboard the F/V Mary K"
-     }
-    ],
-    "id": 112,
-    "illustration": {
-     "alt": "",
-     "title": ""
+    "Fishery Management": "",
+    "Habitat": null,
+    "Habitat Impacts": "",
+    "Image Gallery": [{
+      "src": "https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/white%20hake_Calvin%20Alexander_1.jpg",
+      "alt": "White hake in sampling basket aboard research vessel",
+      "title": "White hake in sampling basket. Photo credit: Calvin Alexander"
+    }],
+    "Location": "White hake are found in the northwest Atlantic Ocean from Newfoundland to southern New England.",
+    "Management": null,
+    "NOAA Fisheries Region": "Greater Atlantic",
+    "Population": "The stock is not overfished.",
+    "Population Status": "",
+    "Scientific Name": "Urophycis tenuis",
+    "Species Aliases": "",
+    "Species Illustration Photo": {
+      "src": "https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Hake_White_NB_W_0.png",
+      "alt": "Illustration of white hake. Credit: Jack Hornady.",
+      "title": ""
     },
-    "name": "Monkfish",
-    "path": "/profiles/monkfish",
-    "protein": "14.48 g",
-    "serving": "100 g (raw)",
-    "sodium": "18 mg",
-    "sugar": "0 g",
-    "taste": "<p>Mild.</p>\n",
-    "texture": "<p>The tail meat is firm, dense, and relatively boneless. The meat is not flaky and has a texture similar to lobster meat. Raw monkfish is covered with a blue-gray membrane, which should be removed before cooking. If left on, the membrane will shrink, and the meat will curl and become tough.</p>\n"
+    "Species Name": "White Hake",
+    "Animal Health": null,
+    "Availability": "Year-round.",
+    "Biology": "",
+    "Bycatch": "",
+    "Calories": "90",
+    "Carbohydrates": "0 g",
+    "Cholesterol": "67 mg",
+    "Color": "",
+    "Disease Treatment and Prevention": null,
+    "Displayed Seafood Profile Illustration": null,
+    "Ecosystem Services": null,
+    "Environmental Considerations": null,
+    "Environmental Effects": null,
+    "Farming Methods": null,
+    "Farming Methods_": null,
+    "Fat, Total": "1.31 g",
+    "Feeds_": null,
+    "Feeds": null,
+    "Fiber, Total Dietary": "0 g",
+    "Fishing Rate": "Not subject to overfishing.",
+    "Harvest": "",
+    "Harvest Type": "Wild",
+    "Health Benefits": "Crimson jobfish is a great source of lean, healthy protein and rich in vitamins.",
+    "Human_Health_": null,
+    "Human Heath": null,
+    "Physical Description": "",
+    "Production": null,
+    "Protein": "18.31 g",
+    "Quote": "",
+    "Quote Background Color": "",
+    "Research": null,
+    "Saturated Fatty Acids, Total": "0.247 g",
+    "Selenium": "32.1 mcg",
+    "Serving Weight": "100 g (raw)",
+    "Servings": "1",
+    "Sodium": "72 mg",
+    "Source": "White hake is wild-caught from Maine to southern New England.",
+    "Sugars, Total": "0 g",
+    "Taste": "White hake has a mild, almost sweet&nbsp;taste.",
+    "Texture": "White hake has a soft, delicate texture that does not stand up well to freezing.",
+    "Path": "/profiles/white-hake",
+    "last_update":"06/21/2022 - 12:00"  
    }
 ]
