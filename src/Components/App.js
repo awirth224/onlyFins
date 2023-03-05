@@ -32,12 +32,6 @@ class App extends Component {
     this.setState({fishies: cal})
   }
 
-  sortProtein = () => {
-    const protein = this.state.fishies.sort((a,b) => {
-      console.log('A', a.protein)
-    })
-  }
-
   render() {
     return (
       <div className="App">
@@ -45,7 +39,6 @@ class App extends Component {
         <Switch>
           <Route exact path='/'>
               <button onClick={this.sortCalories} className='sort-btn'>Sort By Calories</button>
-            {/* <DropDown onChange={this.onChange}/> */}
             <Parent fishies={this.state.fishies}/></Route>
           <Route path='/:species' render={({ match }) => {
             return (
