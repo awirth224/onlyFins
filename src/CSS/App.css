@@ -16,3 +16,12 @@ LIGHTEST: #64B8CB
   height: 15vh;
   justify-content: center;
 }
+
+.sort-btn {
+  background-color: #2EA0B9;
+  border: none;
+  color: white;
+  height: 6vh;
+  margin: 2% 0%;
+  width: 10vw;
+}
