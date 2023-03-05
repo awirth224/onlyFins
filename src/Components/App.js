@@ -46,7 +46,6 @@ class App extends Component {
         <Switch>
           <Route exact path='/'>
               <button onClick={this.sortCalories} className='sort-btn'>Sort By Calories</button>
-            {/* <DropDown onChange={this.onChange}/> */}
             <Parent fishies={this.state.fishies}/></Route>
           <Route path='/:species' render={({ match }) => {
             return (
