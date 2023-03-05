@@ -6,7 +6,6 @@ import cleanData from '../Util';
 import { Route, Switch } from 'react-router-dom';
 import SingleFish from '../Components/SingleFish';
 
-
 class App extends Component {
   constructor() {
     super()

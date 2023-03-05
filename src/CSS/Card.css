@@ -5,7 +5,8 @@ Bio #008CAD
 Fish #2EA0B9
 What #64B8CB
  */
- .card {
+
+.card {
   align-items: center;
   border: 2px solid #2EA0B9;
   box-shadow: 1px 1px 3px 0 #2EA0B9;
