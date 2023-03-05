@@ -21,6 +21,7 @@ const Fish = (props) => {
         </div>
       )
     } else {
+      console.log('found', found)
       return (
         <div className="single-fish-container">
           <div className="img-info-container">

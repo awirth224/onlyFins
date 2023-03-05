@@ -1,5 +1,88 @@
-{
-  "name": "Using fixtures to represent data",
-  "email": "hello@cypress.io",
-  "body": "Fixtures are a great way to mock data for responses to routes"
-}
+[
+  {
+   "calories": "90",
+   "carbohydrates": "0",
+   "cholesterol": "67 mg",
+   "fat": "1.31g",
+   "fiber": "0 g",
+   "gallery": [
+    {
+      "alt": "White hake in sampling basket aboard research vessel",
+      "src": "https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/white%20hake_Calvin%20Alexander_1.jpeg",
+      "title": "White hake in sampling basket. Photo credit: Calvin Alexander"
+    }
+   ],
+   "id": 1,
+   "illustration": {
+    "alt": "Illustration of white hake. Credit: Jack Hornady.",
+    "src": "https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Hake_White_NB_W_0.png",
+    "title": "White hake"
+   },
+   "name": "White Hake",
+   "path": "/profiles/white-hake",
+   "protein": "18.31 g",
+   "serving": "100 g (raw)",
+   "sodium": "72 mg",
+   "sugar": "0 g",
+   "taste": "<p>White hake has a mild, almost sweet&nbsp;taste.</p>\n",
+   "texture": "<p>White hake has a soft, delicate texture that does not stand up well to freezing.</p>\n"
+  },
+  {
+    "calories": "90",
+    "carbohydrates": "undefined",
+    "cholesterol": "95 mg",
+    "fat": "0.9g",
+    "fiber": "0 g",
+    "gallery": [
+     {
+       "alt": "American Lobster",
+       "src": "https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/1.JPG",
+       "title": "American Lobster"
+     }
+    ],
+    "id": 4,
+    "illustration": {
+     "alt": "American Lobster",
+     "src": "https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/Lobster_American_NB_Web.png",
+     "title": "American Lobster"
+    },
+    "name": "American Lobster",
+    "path": "/profiles/american-lobster",
+    "protein": "18.80 g",
+    "serving": "100 g (raw)",
+    "sodium": "296 mg",
+    "sugar": "0 g",
+    "taste": "<p>Mild and sweet.</p>\n",
+    "texture": "<p>The meat is firm and somewhat fibrous. The tail meat is firmer than the meat from the claws.</p>\n"
+   },
+   {
+    "calories": "76",
+    "carbohydrates": "undefined",
+    "cholesterol": "25 mg",
+    "fat": "1.52g",
+    "fiber": "0 g",
+    "gallery": [
+     {
+       "alt": 
+       "Captain Henri Franco with a large monkfish during a cooperative monkfish survey aboard the F/V Mary K",
+       "src": "https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/monkfish_1.jpg",
+       "title": 
+       "Captain Henri Franco with a large monkfish during a cooperative monkfish survey aboard the F/V Mary K"
+     }
+    ],
+    "id": 112,
+    "illustration": {
+     "alt": "",
+     "src": "https://origin-east-01-drupal-fishwatch.woc.noaa.gov/sites/default/files/monkfish.png",
+     "title": ""
+    },
+    "name": "Monkfish",
+    "path": "/profiles/monkfish",
+    "protein": "14.48 g",
+    "serving": "100 g (raw)",
+    "sodium": "18 mg",
+    "sugar": "0 g",
+    "taste": "<p>Mild.</p>\n",
+    "texture": "<p>The tail meat is firm, dense, and relatively boneless. The meat is not flaky and has a texture similar to lobster meat. Raw monkfish is covered with a blue-gray membrane, which should be removed before cooking. If left on, the membrane will shrink, and the meat will curl and become tough.</p>\n"
+   }
+]
