@@ -1,7 +1,6 @@
 const cleanData = (data => {
   const cleanFish = data.map(fish => ({
     name: fish["Species Name"],
-    background: fish["Quote Background Color"],
     benefits: fish["Health Benefits"],
     color: fish["Color"],
     gallery: fish["Image Gallery"],
